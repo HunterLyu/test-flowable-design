@@ -68,3 +68,4 @@ flowable.common.app.idm-url=http://localhost/idm
    has a little difference, for example:
    [http://localhost:8080/flowable-ui/event-registry-api/event-registry-repository/channel-definitions/625e38bd-2c4d-11ee-9bfa-220318a99f17/model](http://localhost:8080/flowable-ui/event-registry-api/event-registry-repository/channel-definitions/625e38bd-2c4d-11ee-9bfa-220318a99f17/model)
    You need to add the path context prefix as "/flowable-ui/".
+3. For more flowable rest api information, please refer to https://documentation.flowable.com/latest/develop/core-swagger/index.html
