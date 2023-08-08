@@ -12,8 +12,8 @@
 	<artifactId>test-flowable-design</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>test-flowable</name>
-	<description>test flowable</description>
+	<name>test-flowable-design</name>
+	<description>test flowable process design</description>
 	<properties>
 		<java.version>17</java.version>
 		<flowable.version>6.8.0</flowable.version>
@@ -39,10 +39,10 @@
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-web</artifactId>-->
 <!--		</dependency>-->
-		<dependency>
-			<groupId>org.springframework.kafka</groupId>
-			<artifactId>spring-kafka</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.kafka</groupId>-->
+<!--			<artifactId>spring-kafka</artifactId>-->
+<!--		</dependency>-->
 
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
@@ -73,16 +73,16 @@
 <!--		</dependency>-->
 
 		<!-- 工作流flowable架包 -->
-		<dependency>
-			<groupId>org.flowable</groupId>
-			<artifactId>flowable-spring-configurator</artifactId>
-			<version>${flowable.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.flowable</groupId>
-			<artifactId>flowable-spring-boot-starter</artifactId>
-			<version>${flowable.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.flowable</groupId>-->
+<!--			<artifactId>flowable-spring-configurator</artifactId>-->
+<!--			<version>${flowable.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.flowable</groupId>-->
+<!--			<artifactId>flowable-spring-boot-starter</artifactId>-->
+<!--			<version>${flowable.version}</version>-->
+<!--		</dependency>-->
 
 <!--		<dependency>-->
 <!--			<groupId>org.flowable</groupId>-->
@@ -96,11 +96,11 @@
 			<version>${flowable.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.flowable</groupId>
-			<artifactId>flowable-spring-boot-starter-process</artifactId>
-			<version>${flowable.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.flowable</groupId>-->
+<!--			<artifactId>flowable-spring-boot-starter-process</artifactId>-->
+<!--			<version>${flowable.version}</version>-->
+<!--		</dependency>-->
 <!--		<dependency>-->
 <!--			<groupId>org.flowable</groupId>-->
 <!--			<artifactId>flowable-spring-boot-starter-cmmn</artifactId>-->
